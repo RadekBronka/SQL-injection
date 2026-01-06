@@ -14,6 +14,7 @@ Wyświetlić dane wszystkich użytkowników, omijając warunek WHERE id = ?.
 
 4.Kliknij Submit.
 
+
 **Co powinno się stać** 
 
 Zamiast jednego użytkownika zobaczysz listę wielu użytkowników (więcej niż jeden rekord).
@@ -24,7 +25,9 @@ Podpowiedź
 </details>
 
 **Zadanie 2**
+
 Użyć UNION SELECT, aby pobrać dane z innej tabeli (users).
+
 
 **Co powinno się stać** 
 W wynikach pojawią się loginy i hasła użytkowników DVWA.
@@ -38,6 +41,7 @@ Podpowiedź
 
 Wykryć z jakiego systemu baz danych korzysta strona za pomocą error-based SQL Injection
 
+
 **Co powinno się stać** 
 W otrzymanym błędzie powinna być widoczna szukana informacja
 
@@ -49,6 +53,7 @@ Podpowiedź
 **Zadanie 4**
 
 Sprawdzić długość hasła admina
+
 
 **Co powinno się stać** 
 Po wpisaniu odpowiedniej długości w zapytaniu otrzymamy użytkownika
