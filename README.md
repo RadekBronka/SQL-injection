@@ -1,6 +1,7 @@
 # SQL-injection
 
 **Zadanie 1**
+
 Wyświetlić dane wszystkich użytkowników, omijając warunek WHERE id = ?.
 
 **Kroki**
@@ -14,6 +15,7 @@ Wyświetlić dane wszystkich użytkowników, omijając warunek WHERE id = ?.
 4.Kliknij Submit.
 
 **Co powinno się stać** 
+
 Zamiast jednego użytkownika zobaczysz listę wielu użytkowników (więcej niż jeden rekord).
 
 Podpowiedź
@@ -30,4 +32,28 @@ W wynikach pojawią się loginy i hasła użytkowników DVWA.
 Podpowiedź
 <details>
 1' UNION SELECT user, password FROM users -- -
+</details>
+
+**Zadanie 3**
+
+Wykryć z jakiego systemu baz danych korzysta strona za pomocą error-based SQL Injection
+
+**Co powinno się stać** 
+W otrzymanym błędzie powinna być widoczna szukana informacja
+
+Podpowiedź
+<details>
+'
+</details>
+
+**Zadanie 4**
+
+Sprawdzić długość hasła admina
+
+**Co powinno się stać** 
+Po wpisaniu odpowiedniej długości w zapytaniu otrzymamy użytkownika
+
+Podpowiedź
+<details>
+1' AND LENGTH(password)=32 -- -
 </details>
