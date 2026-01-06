@@ -4,17 +4,17 @@ Cel
 
 Wyświetlić dane wszystkich użytkowników, omijając warunek WHERE id = ?.
 
-Kroki
+*Kroki
 
-Kliknij DVWA Security → ustaw Low → Submit.
+1.Kliknij DVWA Security → ustaw Low → Submit.
 
-Kliknij SQL Injection w menu.
+2.Kliknij SQL Injection w menu.
 
-W polu User ID wpisz payload SQL.
+3.W polu User ID wpisz payload SQL.
 
-Kliknij Submit.
+4.Kliknij Submit.
 
-Co powinno się stać (kryterium sukcesu)
+*Co powinno się stać 
 
 Zamiast jednego użytkownika zobaczysz listę wielu użytkowników (więcej niż jeden rekord).
 
