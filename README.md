@@ -15,7 +15,7 @@ Wyświetlić dane wszystkich użytkowników, omijając warunek WHERE id = ?.
 4.Kliknij Submit.
 
 
-**Co powinno się stać** 
+# **Co powinno się stać** 
 
 Zamiast jednego użytkownika zobaczysz listę wielu użytkowników (więcej niż jeden rekord).
 
