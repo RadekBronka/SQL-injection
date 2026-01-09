@@ -1,0 +1,34 @@
+Pytanie 1: Co jest wskazywane jako główna przyczyna powstawania podatności SQL Injection? 
+A) Używanie zbyt skomplikowanych baz danych. 
+B) Tworzenie zapytań poprzez zwykłe łączenie ciągów znaków (konkatenację) z danymi od użytkownika. 
+C) Korzystanie z systemów ORM (Object-Relational Mapping). 
+D) Zbyt krótki czas odpowiedzi serwera na zapytania.
+Odp. B
+
+Pytanie 2: Na czym polega atak typu "Time-Based Blind SQL Injection"? 
+A) Atakujący odczytuje dane bezpośrednio z komunikatów błędów wyświetlanych przez bazę (np. Oracle czy MSSQL). 
+B) Atakujący wykorzystuje operator UNION, aby połączyć wyniki złośliwego zapytania z oryginalnym. 
+C) Atakujący mierzy czas odpowiedzi serwera (np. czy "zasypia" na 10 sekund), aby sprawdzić, czy warunek logiczny został spełniony. 
+D) Atakujący wymusza na bazie danych wykonanie zewnętrznego żądania DNS do własnego serwera.
+Odp. C
+
+Pytanie 3: Którą metodę obrony prezentacja określa jako "jedyną 100% skuteczną", oddzielającą logikę SQL od danych? 
+A) Walidacja wejścia (Whitelisting). 
+B) Zasada najmniejszych przywilejów (Least Privilege). 
+C) Zapytania parametryzowane (Prepared Statements). 
+D) Regularne audyty kodu (SAST).
+Odp. C
+
+Pytanie 4: Czym charakteryzuje się metoda ataku "Out-of-Band SQLi"? 
+A) Jest stosowana, gdy serwer nie zwraca żadnych informacji bezpośrednio, a atakujący wymusza zewnętrzne żądanie (np. DNS lub HTTP). 
+B) Jest najłatwiejszą do przeprowadzenia metodą, gdzie wyniki widoczne są w odpowiedzi HTTP. 
+C) Polega na zmianie wyglądu aplikacji w zależności od tego, czy zapytanie jest prawdziwe, czy fałszywe. 
+D) Wykorzystuje lukę w zabezpieczeniach haseł (np. brak hashowania Argon2).
+Odp. A
+
+Pytanie 5: Jaki przykładowy ciąg znaków podany w prezentacji sprawia, że warunek w zapytaniu staje się zawsze prawdziwy (zwracając np. wszystkie konta bez hasła)? 
+A) DELETE * FROM users 
+B) ' OR '1'='1 
+C) SLEEP(10) 
+D) admin"; --
+Odp. B
