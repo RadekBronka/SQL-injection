@@ -1,4 +1,5 @@
 ## SQL-injection
+# [Prezentacja](https://docs.google.com/presentation/d/1QifV6tWphtoKqVNPmHNMNXaLm0Djn-DQeAdNvYkSISA/edit?usp=sharing)
 
 # Zadanie 1
 
