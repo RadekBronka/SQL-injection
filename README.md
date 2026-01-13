@@ -75,6 +75,6 @@ Ominąć sanityzację wejścia
 
 Rozwiązanie:
 <details>
-Znajdź żądanie sqli, edytuj i wyślij ponownie. Podmień zawartość zapytania na id=<coś>&Submit=Submit, 
-jako <coś> możesz wpisać np. 1 UNION SELECT @@datadir,2 lub 1 UNION SELECT now(),2
+Znajdź żądanie sqli, edytuj i wyślij ponownie. Podmień zawartość zapytania na id=[coś]&Submit=Submit, 
+jako [coś] możesz wpisać np. 1 UNION SELECT @@datadir,2 lub 1 UNION SELECT now(),2
 </details>
