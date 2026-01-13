@@ -1,6 +1,11 @@
 ## SQL-injection
 # [Prezentacja](https://docs.google.com/presentation/d/1QifV6tWphtoKqVNPmHNMNXaLm0Djn-DQeAdNvYkSISA/edit?usp=sharing)
 
+# Uruchamianie
+
+docker run -d -p 80:80 vulnerables/web-dvwa
+
+
 # Zadanie 1
 
 Wyświetlić dane wszystkich użytkowników, omijając warunek WHERE id = ?.
