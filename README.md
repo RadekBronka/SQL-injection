@@ -4,7 +4,7 @@
 # Uruchamianie
 
 docker run -d -p 80:80 vulnerables/web-dvwa
-
+Zaloguj się, admin/password
 
 # Zadanie 1
 
