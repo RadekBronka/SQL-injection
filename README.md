@@ -3,9 +3,9 @@
 
 # Uruchamianie
 
-docker run -d -p 80:80 vulnerables/web-dvwa
-Zaloguj się, admin/password
-Create/reset database
+- docker run -d -p 80:80 vulnerables/web-dvwa
+- Zaloguj się, admin/password
+- Create/reset database
 
 # Zadanie 1
 
